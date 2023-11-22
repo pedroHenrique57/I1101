@@ -1,0 +1,38 @@
+Must Have tools
+    Burp Proxy
+ - This allow you to watch all HTTP(S) communication. intercept and modify requests. and replay existing requests You will use requests, and replay existing requests 
+ - You will use this constantly in both your coursework and exams
+
+    Firefox
+ - Firefox allows you to set proxy settings specifically in the browser, rather then settings them system-wide
+ - This will be your friend when you're testing, to isolate an application
+
+    Mindset
+
+    Understand the application to know how to break it
+    Prioritize High-risk areas
+    When assessing an application, find every bit of functionality you can. Once you have a rought list of all of the bits of the application, consider this: If i was an attacker, what would my goal be?
+    EX: Maybe i'd want credit card numbers from an ecommerce site: Maybe i'd want to destroy or falsify data in a server monitoring application.
+
+    Prioritization
+
+    Once you have a good picture of what an attacker might want, you can start to rank areas of the application in terms of payoff: if I compromise area X, does that give me low-value information or high-value? 
+    What about Y instead? When possible, asking developers the question "what keeps you up at night?” will often point to areas to check.
+
+    Findings
+
+    For the purposes of this course, you should include the following for each vulnerability:
+ - Title -- E.g. "Reflected Cross-Site Scripting in profiles"
+ - Severity
+ - Description -- Brief description of what the vulnerability is 
+ - Reproduction Steps -- Brief description of how to reproduce the bug; preferably with a small proof of concept Impact -- What can be done with the vulnerability?
+ - VIDEOS Mitigation -- How is it fixed?
+ - Affected assets -- Generally a list of affected URLs.
+
+    Severity
+This is handled differently just about everywhere, but I recommend basing severity on difficulty of exploitation and potential business impact. The following rankings are what I use:
+ - Informational -- Issue has no real impact
+ - Low -- The business impact is minimal
+ - Medium -- Potential to cause harm to users, but not revealing data
+ - High -- Potential to reveal user data or aids in exploitation of other vulnerabilities
+ - Critical -- High risk of personal/confidential data exposure, general system compromise, and other severe impacts to the business.
