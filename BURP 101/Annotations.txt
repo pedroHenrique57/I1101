@@ -1,0 +1,10 @@
+    Burp Suite
+
+    What is burp?
+
+  Burp Suite is software developed in Java by PortSwigger, for carrying out security tests on web applications. Burp Suite is divided into several components.
+
+  Burp needs a configuration after installation, you can read it here:
+  https://portswigger.net/burp/documentation/desktop/getting-started
+
+  Burp Class 1 Teaches a lot of the program, watch it again if you get lost
